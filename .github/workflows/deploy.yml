@@ -12,6 +12,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 24
+      - run: npm cache clean --force
+      - run: npm rm -rf node_modules package-lock.json
       - run: npm install
       - run: npm run build
       - uses: peaceiris/actions-gh-pages@v3
