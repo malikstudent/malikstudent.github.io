@@ -1,8 +1,8 @@
 {
   "name": "Malik Akbar Al Adly Portfolio",
   "short_name": "Malik Portfolio",
-  "start_url": "/profile_git/",
-  "scope": "/profile_git/",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#F8FAFC",
   "theme_color": "#2563EB",
